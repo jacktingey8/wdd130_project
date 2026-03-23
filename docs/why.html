@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskThe8Ball - Why?</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="why-page">
+<header class="site-header">
+    <nav class="main-nav">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="yes-no.html">Yes/No</a></li>
+            <li><a href="why.html" class="active">Why?</a></li>
+            <li><a href="when.html">When?</a></li>
+        </ul>
+    </nav>
+    <hr class="header-divider">
+</header>
+
+<main class="main-content text-center">
+    <section class="interaction-section">
+        <h2>Give the 8 ball your problem and answer its questions! [cite: 65]</h2>
+
+        <form action="#conversation" method="GET" class="problem-form">
+            <textarea placeholder="Describe your problem here..." class="problem-input" rows="4" required></textarea>
+            <button type="submit" class="btn btn-submit">Submit Problem</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="conversation" class="conversation-section">
+        <div class="eight-ball-response">
+            <p class="magic-question">Why? (just repeatedly ask ‘why?’) [cite: 66]</p>
+        </div>
+
+        <form action="#conversation" method="GET" class="reply-form">
+            <input type="text" placeholder="Answer the 8 ball..." class="reply-input" required>
+            <button type="submit" class="btn btn-reply">Reply</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

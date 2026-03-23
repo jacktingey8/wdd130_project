@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskThe8Ball - When?</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="when-page">
+<header class="site-header">
+    <nav class="main-nav">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="yes-no.html">Yes/No</a></li>
+            <li><a href="why.html">Why?</a></li>
+            <li><a href="when.html" class="active">When?</a></li>
+        </ul>
+    </nav>
+    <hr class="header-divider">
+</header>
+
+<main class="main-content text-center">
+    <section class="interaction-section">
+        <h2>Ask when you should do something</h2>
+        <form action="#timing-answer" method="GET" class="question-form">
+            <input type="text" placeholder="e.g., When should I study?" class="question-input" required>
+            <button type="submit" class="btn btn-ask">Ask the 8 Ball</button>
+        </form>
+    </section>
+
+    <section id="timing-answer" class="answer-section">
+        <div class="eight-ball-display">
+            <p class="magic-answer">RIGHT NOW!</p>
+        </div>
+    </section>
+</main>
+</body>
+</html>
